@@ -1,0 +1,73 @@
+.flex-d {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: blueviolet;
+}
+.flex-d-item-headind {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.flex-d-ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.flex-d-ull {
+  width: 55%;
+}
+li {
+  list-style-type: none;
+}
+.li-main {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.link-nu-head {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+.li-name-mahiti {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.beast-img-widht {
+  width: 500px;
+}
+.flex-d-item-headind-titel {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.hr-line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 1000px;
+  border-top: 1px solid #38444d;
+}
+.download-btnnn {
+  width: 10rem;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+.download-btnnn:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.download-link-720 {
+  text-decoration: none;
+  color: black;
+}

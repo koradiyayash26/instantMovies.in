@@ -1,9 +1,104 @@
 body {
   margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
+/* form */
+.continer-form {
+  /* height: 900px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titel {
+  background-color: #a07ecc;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.item1 {
+  border-radius: 10px;
+  background-color: #684299;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+}
+
+.item2 {
+  display: flex;
+  gap: 5px;
+}
+
+.item3 {
+  display: grid;
+  gap: 5px;
+  margin: 15px 0px;
+  color: #ffffff;
+}
+
+.item3:nth-child(1) {
+  display: flex;
+  gap: 5px;
+}
+
+.Name {
+  display: grid;
+  width: 400px;
+}
+
+.item4 {
+  display: grid;
+  gap: 5px;
+}
+
+.item4:nth-child(2) {
+  display: grid;
+  gap: 5px;
+  padding: 28px 24px;
+  justify-content: end;
+}
+
+.Submit {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px gray;
+  font-size: 15px;
+}
+
+.Submit:hover {
+  box-shadow: 2px 2px rgb(43, 30, 30);
+  background-color: #a07ecc;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.back-color {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(252, 252, 180);
+}
+
+textarea {
+  background-color: rgb(252, 252, 180);
+  border-radius: 5px;
+  border: none;
+}
+
+/* form */
 /* topnav bar line start */
 .top-nav {
   display: flex;
+  position: sticky;
+  top: 0;
   /* width: 100%;
   height: 60px; */
   background-color: #684299;
@@ -30,7 +125,7 @@ body {
 }
 .top-nav-right-item {
   text-decoration: none;
-  padding: 10px;
+  margin-right: 15px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -43,8 +138,9 @@ body {
   text-decoration: underline;
 }
 .main-logo {
-  width: 50px;
+  width: 65px;
   height: 50px;
+  margin-top: 3px;
   margin-left: 15px;
 }
 /* top nav bar line end */
@@ -81,6 +177,7 @@ body {
   width: 100%;
   justify-content: center;
   display: flex;
+  align-items: center;
 }
 .sec-navbar-items {
   display: flex;
@@ -174,6 +271,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 14.9%;
+  /* height: 500px; */
 }
 .img-details {
   font-weight: bold;
@@ -187,12 +285,122 @@ body {
 .container {
   padding: 2px 16px;
 }
-.download-link{
+.download-link {
   text-decoration: none;
   color: black;
 }
-.download-link:hover{
+.download-link:hover {
   color: #684299;
   text-decoration: underline;
-
 }
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-top: 1px solid black;
+  background-color: #684299;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.footer-items {
+  display: flex;
+}
+.footeer-right {
+  display: flex;
+  margin-right: 10px;
+}
+.footer-name {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.fooete-copyright {
+  margin-left: 10px;
+}
+.one-name-fooetr {
+  margin: 0px 10px;
+}
+.footer-hover:hover {
+  text-decoration: underline;
+}
+/* about :start */
+
+.about-continer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.about-titel {
+  background-color: #a07ecc;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.about-item {
+  border-radius: 10px;
+  background-color: #684299;
+  width: 800px;
+}
+
+.about-item1 {
+  color: rgb(229, 231, 235);
+  line-height: 1.5;
+  font-size: 13.9px;
+  letter-spacing: 0.3475px;
+  padding: 48px 80px;
+}
+
+.about-item2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-item3 {
+  color: rgb(34, 211, 238);
+}
+
+.about-item4 {
+  margin-top: 8px;
+}
+
+.about-item5 {
+  color: rgb(250, 204, 21);
+}
+
+.about-item6 {
+  color: rgb(249, 255, 0, 1);
+}
+
+.footer-continer-flex {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #684299;
+  font-size: 14px;
+  color: rgb(229, 231, 235);
+}
+
+.footer-item-second {
+  color: rgb(229, 231, 235);
+  text-decoration: none;
+}
+
+.footer-item1 {
+  padding-right: 24px;
+}
+
+/* about end */
+
+/* download page */
