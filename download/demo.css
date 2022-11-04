@@ -3,8 +3,10 @@
   display: flex;
   justify-content: center;
 }
-body{
+body {
   background-color: blueviolet;
+  margin: 0;
+  color: white;
 }
 .flex-d-item-headind {
   font-size: 22px;
@@ -49,10 +51,16 @@ li {
   margin-top: 20px;
 }
 .hr-line {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 15px;
   width: 1000px;
-  border-top: 1px solid #38444d;
+  border: 1px solid white;
+}
+.hr-line-seco {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 1000px;
+  border: 1px solid white;
 }
 .download-btnnn {
   width: 10rem;
@@ -70,4 +78,27 @@ li {
 .download-link-720 {
   text-decoration: none;
   color: black;
+}
+.beast-img-screen-short-top {
+  box-shadow: 1px 1px rgb(206, 198, 198);
+}
+.footer-continer-flex {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #684299;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(229, 231, 235);
+}
+
+.footer-item-second {
+  color: rgb(229, 231, 235);
+  text-decoration: none;
+}
+
+.footer-item1 {
+  padding-right: 24px;
 }
