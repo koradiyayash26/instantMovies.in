@@ -2,6 +2,13 @@ body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
 }
+/* dmca :start */
+.dcma-item {
+  margin: 0px;
+  font-size: 20px;
+  color: rgb(249, 255, 0, 1);
+}
+/* dcma end */
 /* form */
 .continer-form {
   /* height: 900px; */
@@ -105,6 +112,7 @@ textarea {
   justify-content: space-between;
   box-shadow: 0px 2px gray;
 }
+
 .main-site-name {
   text-decoration: none;
   color: white;
@@ -129,9 +137,9 @@ textarea {
   font-family: "Poppins", sans-serif;
   color: white;
 }
-.active:active {
-  color: white;
-}
+/* .active{
+  color: lightgrey;
+} */
 .top-nav-right-item:hover {
   color: silver;
   margin-top: 2px;
@@ -410,6 +418,9 @@ textarea {
 .footer-item1 {
   padding-right: 24px;
 }
+.footer-item-second:hover {
+  text-decoration: underline;
+}
 
 /* about end */
 
@@ -493,3 +504,4 @@ li {
 .beast-img-screen-short-top {
   box-shadow: 1px 1px rgb(206, 198, 198);
 }
+/* alll  meadinAaa  quryyyyyyyyyyyyyyyyyyyyyyyyy */
